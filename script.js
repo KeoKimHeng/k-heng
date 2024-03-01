@@ -3,10 +3,12 @@ const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
+const btnGroup = document.querySelector(".btn-group"); // Selecting the button group container
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Nv sl doch knea ng!!!!!!!";
-  gif.src ="https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+  question.innerHTML = "ធ្វើសង្សាគ្នាម៉ងទៅចឹង><";
+  gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+  btnGroup.style.display = "none"; // Hiding the button group container
 });
 
 noBtn.addEventListener("mouseover", () => {
